@@ -1,6 +1,5 @@
 {
-  "homepage": "http://faizanbardai.github.io/meety-fe",
-  "name": "meety-fe",
+  "name": "Meety",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -22,7 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "npm run deploy",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
